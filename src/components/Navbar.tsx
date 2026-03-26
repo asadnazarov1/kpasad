@@ -27,7 +27,7 @@ const Navbar = ({ lang, onLangChange }: NavbarProps) => {
       }>
       
       <div className="font-heading font-extrabold text-lg tracking-tight text-heading">Асад Назаров.
-        <span className="text-primary">.</span>
+        <span className="text-primary"></span>
       </div>
       <div className="flex gap-1 bg-muted border border-border rounded-full p-1">
         {(["ru", "uz"] as const).map((l) =>
