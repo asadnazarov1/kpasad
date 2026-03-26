@@ -14,7 +14,7 @@ const logoMap: Record<string, string> = {
   avtotest: avtotestLogo,
   refind: refindLogo,
   easytag: easytagLogo,
-  sargu: sarguLogo,
+  sargu: sarguLogo
 };
 
 const T = {
@@ -23,20 +23,20 @@ const T = {
     title: "Разные отрасли. Один принцип.",
     sub: "Маркетинг, образование, e-commerce, авто — в каждом бизнесе нашли процессы где ИИ сэкономил время и увеличил доход.",
     more: "Подробнее",
-    ipBadge: "Сейчас в работе",
+    ipBadge: "Сейчас в работе"
   },
   uz: {
     label: "LOYIHALAR",
     title: "Turli sohalar. Bitta tamoyil.",
     sub: "Marketing, ta'lim, e-commerce, avto — har bir biznesda AI vaqtni tejaydigan jarayonlarni topdik.",
     more: "Batafsil",
-    ipBadge: "Hozir ishda",
-  },
+    ipBadge: "Hozir ishda"
+  }
 };
 
 const caseOrder: (CaseId | "inprogress")[] = ["enjen", "avtotest", "refind", "easytag", "sargu", "inprogress"];
 
-interface Props { lang: "ru" | "uz"; }
+interface Props {lang: "ru" | "uz";}
 
 const CasesSection = ({ lang }: Props) => {
   const ref = useRef(null);
@@ -49,7 +49,7 @@ const CasesSection = ({ lang }: Props) => {
       <div className="section-container">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6 }} className="mb-12">
           <div className="section-label mb-4">{t.label}</div>
-          <h2 className="section-title mb-4">{t.title}</h2>
+          <h2 className="section-title mb-4 font-sans">{t.title}</h2>
           <p className="section-subtitle">{t.sub}</p>
         </motion.div>
 
@@ -62,8 +62,8 @@ const CasesSection = ({ lang }: Props) => {
                   initial={{ opacity: 0, y: 28 }}
                   animate={inView ? { opacity: 1, y: 0 } : {}}
                   transition={{ duration: 0.5, delay: i * 0.08 }}
-                  className="glass-card p-7 opacity-70"
-                >
+                  className="glass-card p-7 opacity-70">
+                  
                   <div className="inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold mb-3 border" style={{ background: "hsl(var(--warning))", borderColor: "hsl(var(--warning-border))", color: "hsl(var(--warning-foreground))" }}>
                     <span className="w-1.5 h-1.5 rounded-full animate-pulse-dot" style={{ background: "hsl(var(--warning-dot))" }} />
                     {t.ipBadge}
@@ -80,8 +80,8 @@ const CasesSection = ({ lang }: Props) => {
                   <p className="text-sm text-muted-foreground">
                     {lang === "ru" ? "Три узбекские компании на стадии внедрения. Детали под NDA." : "Joriy etish bosqichidagi uchta o'zbek kompaniyasi. Tafsilotlar maxfiy."}
                   </p>
-                </motion.div>
-              );
+                </motion.div>);
+
             }
 
             const c = CASES[id];
@@ -93,16 +93,16 @@ const CasesSection = ({ lang }: Props) => {
                 animate={inView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.5, delay: i * 0.08 }}
                 onClick={() => setOpenCase(id)}
-                className="glass-card cursor-pointer group relative overflow-hidden"
-              >
+                className="glass-card cursor-pointer group relative overflow-hidden">
+                
                 {/* Logo banner with diagonal clip */}
                 <div className="relative w-full h-28 overflow-hidden" style={{ clipPath: "polygon(0 0, 100% 0, 100% 75%, 0 100%)" }}>
                   <div className="absolute inset-0 bg-muted flex items-center justify-center">
                     <img
                       src={logoSrc}
                       alt={c.name}
-                      className="h-16 w-auto max-w-[70%] object-contain"
-                    />
+                      className="h-16 w-auto max-w-[70%] object-contain" />
+                    
                   </div>
                   <div className="absolute inset-0 bg-gradient-to-b from-transparent to-card/20" />
                 </div>
@@ -126,33 +126,33 @@ const CasesSection = ({ lang }: Props) => {
                   <p className="text-sm text-muted-foreground leading-relaxed line-clamp-2 mb-3">{c.shortDesc[lang]}</p>
 
                   <div className="flex gap-4">
-                    {c.metrics.map((m, mi) => (
-                      <div key={mi} className="flex items-center gap-2">
+                    {c.metrics.map((m, mi) =>
+                    <div key={mi} className="flex items-center gap-2">
                         <div className="text-xs">
                           <div className="font-heading text-sm font-extrabold text-heading">{m.value[lang]}</div>
                           <div className="text-[10px] text-muted-foreground">{m.label[lang]}</div>
                         </div>
                       </div>
-                    ))}
+                    )}
                   </div>
 
                   <div className="flex flex-wrap gap-1.5 mt-3 pt-3 border-t border-border">
-                    {c.tags.map((tag, ti) => (
-                      <span key={ti} className="bg-muted border border-border rounded-full px-2.5 py-0.5 text-[10px] text-muted-foreground">{tag}</span>
-                    ))}
+                    {c.tags.map((tag, ti) =>
+                    <span key={ti} className="bg-muted border border-border rounded-full px-2.5 py-0.5 text-[10px] text-muted-foreground">{tag}</span>
+                    )}
                   </div>
                 </div>
-              </motion.div>
-            );
+              </motion.div>);
+
           })}
         </div>
       </div>
 
-      {openCase && (
-        <CaseModal caseId={openCase} lang={lang} onClose={() => setOpenCase(null)} />
-      )}
-    </section>
-  );
+      {openCase &&
+      <CaseModal caseId={openCase} lang={lang} onClose={() => setOpenCase(null)} />
+      }
+    </section>);
+
 };
 
 export default CasesSection;
