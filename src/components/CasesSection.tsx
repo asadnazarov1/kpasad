@@ -50,8 +50,8 @@ const CasesSection = ({ lang }: Props) => {
                   transition={{ duration: 0.5, delay: i * 0.08 }}
                   className="glass-card p-7 opacity-70"
                 >
-                  <div className="inline-flex items-center gap-1.5 bg-orange-50 border border-orange-200 rounded-full px-3 py-1 text-xs font-semibold text-orange-500 mb-3">
-                    <span className="w-1.5 h-1.5 bg-orange-400 rounded-full animate-pulse-dot" />
+                  <div className="inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold mb-3 border" style={{ background: "hsl(var(--warning))", borderColor: "hsl(var(--warning-border))", color: "hsl(var(--warning-foreground))" }}>
+                    <span className="w-1.5 h-1.5 rounded-full animate-pulse-dot" style={{ background: "hsl(var(--warning-dot))" }} />
                     {t.ipBadge}
                   </div>
                   <div className="flex items-center gap-2 mb-1">
