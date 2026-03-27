@@ -16,17 +16,16 @@ const T = {
 
   },
   uz: {
-    label: "O'ZINGIZNI TANIYSIZMI?",
-    title: "Bu har bir biznesda sodir bo'ladi — sohadan qat'i nazar",
-    sub: "Qurilish, chakana savdo, xizmatlar, ishlab chiqarish, ta'lim — hamma joyda bir xil yo'qotishlar.",
+    label: "ЎЗИНГИЗНИ ТАНИЙСИЗМИ?",
+    title: "Бу ҳар бир бизнесда содир бўлади — соҳадан қатъи назар",
+    sub: "Қурилиш, чакана савдо, хизматлар, ишлаб чиқариш, таълим — ҳамма жойда бир хил йўқотишлар.",
     cards: [
-    { t: "Mijozlarga javob berishda juda uzoq vaqt ketadi", d: "Xabarlar yo'qoladi, mijozlar raqobatchilarga ketadi. AI agent darhol javob beradi — 24/7." },
-    { t: "Bir xil ish har kuni qo'lda bajariladi", d: "Hisobotlar, nashrlar, jadvallar — vazifa takrorlansa, uni avtomatlashtirish mumkin." },
-    { t: "Qo'lda jarayonlar sababli doimiy xatolar", d: "Odam charchaydi, chalg'iydi, unutadi. AI bir xil ishni har safar bir xil aniq bajaradi." },
-    { t: "Ma'lumotlar turli tizimlarda tarqoq", d: "CRM, messenjerlar, pochta, jadvallar — har kim o'zicha saqlaydi. Bu har hafta soatlab vaqt talab qiladi." },
-    { t: "Mavjud jamoa bilan samaraliroq ishlashni xohlaymiz", d: "AI rutinni o'z zimmasiga oladi — va o'sha jamoa bir necha barobar ko'proq ulguradi." },
-    { t: "AI haqida eshitganmiz, lekin qayerdan boshlashni bilmaymiz", d: "Ko'pchilik salohiyatni ko'radi, ammo aynan nimani joriy etishni tushunmaydi." }]
-
+    { t: "Мижозларга жавоб беришда жуда узоқ вақт кетади", d: "Хабарлар йўқолади, мижозлар рақобатчиларга кетади. ИИ агент дарҳол жавоб беради — 24/7." },
+    { t: "Бир хил иш ҳар куни қўлда бажарилади", d: "Ҳисоботлар, нашрлар, жадваллар — вазифа такрорланса, уни автоматлаштириш мумкин." },
+    { t: "Қўлда жараёнлар сабабли доимий хатолар", d: "Одам чарчайди, чалғийди, унутади. ИИ бир хил ишни ҳар сафар бир хил аниқ бажаради." },
+    { t: "Маълумотлар турли тизимларда тарқоқ", d: "CRM, мессенжерлар, почта, жадваллар — ҳар ким ўзича сақлайди. Бу ҳар ҳафта соатлаб вақт талаб қилади." },
+    { t: "Мавжуд жамоа билан самаралироқ ишлашни хоҳлаймиз", d: "ИИ рутинни ўз зиммасига олади — ва ўша жамоа бир неча баробар кўпроқ улгуради." },
+    { t: "ИИ ҳақида эшитганмиз, лекин қаердан бошлашни билмаймиз", d: "Кўпчилик салоҳиятни кўради, аммо айнан нимани жорий этишни тушунмайди." }]
   }
 };
 

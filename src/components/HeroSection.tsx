@@ -10,12 +10,12 @@ const T = {
     cases: "Смотреть кейсы"
   },
   uz: {
-    tag: "AI arxitektor · 8 loyiha · 4 mamlakat",
-    h1: ["Biznesingiz soatlar sarflaydi", "AI bir necha daqiqada"],
-    h1em: "bajaradigan ishga.",
-    sub: "Jarayonlaringizni tahlil qilaman, aynan qayerda vaqt va pul yo'qolayotganini topaman — va AI'ni aynan kerakli joyga joriy etaman.",
-    cta: "Bepul AI auditga yozilish",
-    cases: "Loyihalarni ko'rish"
+    tag: "AI архитектор · 8 лойиҳа · 4 мамлакат",
+    h1: ["Бизнесингиз соатлар сарфлайди", "ИИ бир неча дақиқада"],
+    h1em: "бажарадиган ишга.",
+    sub: "Жараёнларингизни таҳлил қиламан, айнан қаерда вақт ва пул йўқолаётганини топаман — ва ИИ'ни айнан керакли жойга жорий этаман.",
+    cta: "Бепул AI аудитга ёзилиш",
+    cases: "Лойиҳаларни кўриш"
   }
 };
 

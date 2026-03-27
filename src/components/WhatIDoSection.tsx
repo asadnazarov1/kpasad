@@ -14,15 +14,14 @@ const T = {
 
   },
   uz: {
-    label: "MEN NIMA QILAMAN",
-    title: "Men AI vositalar emas — biznesingizga ishlaydigan tizimlar quraman.",
-    sub: "Biz xarajatlarni kamaytiradigan, rutinni olib tashlaydigan va daromadni oshiradigan AI tizimlarini quramiz.",
+    label: "МЕН НИМА ҚИЛАМАН",
+    title: "Мен ИИ воситалар эмас — бизнесингизга ишлайдиган тизимлар қураман.",
+    sub: "Биз харажатларни камайтирадиган, рутинни олиб ташлайдиган ва даромадни оширадиган ИИ тизимларини қурамиз.",
     cards: [
-    { num: "01", icon: "🔍", t: "Audit va strategiya", d: "Jarayonlaringizni arxitektor sifatida tahlil qilaman — aynan qayerda vaqt va pul yo'qolayotganini topaman." },
-    { num: "02", icon: "🤖", t: "AI agentlar va avtojoblar", d: "Instagram, Telegram, WhatsApp da aqlli botlar — CRM integratsiyasi bilan mantiqiy to'liq muloqot." },
-    { num: "03", icon: "⚡", t: "Operatsiyalarni avtomatlashtirish", d: "Maosh, KPI, hisobotlar, nashrlar, vaqt hisobi — har kuni qo'lda bajaradigan hamma narsani AI ga topshiramiz." },
-    { num: "04", icon: "🔗", t: "Tizimlarni birlashtirish", d: "Tarqoq platformalarni bir ekotizimga birlashtiraman. CRM, messenjerlar, marketplaces, pochta." }]
-
+    { num: "01", icon: "🔍", t: "Аудит ва стратегия", d: "Жараёнларингизни архитектор сифатида таҳлил қиламан — айнан қаерда вақт ва пул йўқолаётганини топаман." },
+    { num: "02", icon: "🤖", t: "ИИ агентлар ва автожавоблар", d: "Instagram, Telegram, WhatsApp да ақлли ботлар — CRM интеграцияси билан мантиқий тўлиқ мулоқот." },
+    { num: "03", icon: "⚡", t: "Операцияларни автоматлаштириш", d: "Маош, KPI, ҳисоботлар, нашрлар, вақт ҳисоби — ҳар куни қўлда бажарадиган ҳамма нарсани ИИ га топширамиз." },
+    { num: "04", icon: "🔗", t: "Тизимларни бирлаштириш", d: "Тарқоқ платформаларни бир экотизимга бирлаштираман. CRM, мессенжерлар, маркетплейслар, почта." }]
   }
 };
 
