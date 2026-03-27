@@ -40,7 +40,7 @@ const Navbar = ({ lang, onLangChange }: NavbarProps) => {
           "text-muted-foreground hover:text-foreground"}`
           }>
           
-            {l === "ru" ? "РУ" : "ЎЗ"}
+            {l === "ru" ? "РУ" : "UZ"}
           </button>
         )}
       </div>

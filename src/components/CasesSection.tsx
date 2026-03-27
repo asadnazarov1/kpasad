@@ -26,11 +26,11 @@ const T = {
     ipBadge: "Сейчас в работе"
   },
   uz: {
-    label: "ЛОЙИҲАЛАР",
-    title: "Турли соҳалар. Битта тамойил.",
-    sub: "Маркетинг, таълим, e-commerce, авто — ҳар бир бизнесда ИИ вақтни тежайдиган жараёнларни топдик.",
-    more: "Батафсил",
-    ipBadge: "Ҳозир ишда"
+    label: "LOYIHALAR",
+    title: "Turli sohalar. Bitta tamoyil.",
+    sub: "Marketing, ta'lim, e-commerce, avto — har bir biznesda AI vaqtni tejaydigan jarayonlarni topdik.",
+    more: "Batafsil",
+    ipBadge: "Hozir ishda"
   }
 };
 
@@ -71,14 +71,14 @@ const CasesSection = ({ lang }: Props) => {
                   <div className="flex items-center gap-2 mb-1">
                     <span>🇺🇿</span>
                     <span className="text-[10px] font-semibold tracking-wider uppercase text-muted-foreground">
-                      {lang === "ru" ? "Узбекистан" : "Ўзбекистон"}
+                      {lang === "ru" ? "Узбекистан" : "O'zbekiston"}
                     </span>
                   </div>
                   <h3 className="font-heading text-lg font-extrabold text-heading mb-1">
-                    {lang === "ru" ? "3 новых проекта" : "3 янги лойиҳа"}
+                    {lang === "ru" ? "3 новых проекта" : "3 yangi loyiha"}
                   </h3>
                   <p className="text-sm text-muted-foreground">
-                    {lang === "ru" ? "Три узбекские компании на стадии внедрения. Детали под NDA." : "Жорий этиш босқичидаги учта ўзбек компанияси. Тафсилотлар махфий."}
+                    {lang === "ru" ? "Три узбекские компании на стадии внедрения. Детали под NDA." : "Joriy etish bosqichidagi uchta o'zbek kompaniyasi. Tafsilotlar maxfiy."}
                   </p>
                 </motion.div>);
 

@@ -16,16 +16,16 @@ const T = {
 
   },
   uz: {
-    label: "НИМА ЎЗГАРАДИ",
-    title: "Жорий этишдан кейин нима оласиз",
-    sub: "ИИ тизимлари ишлай бошлагандан кейин бизнесда содир бўладиган аниқ ўзгаришлар.",
+    label: "NIMA O'ZGARADI",
+    title: "Joriy etishdan keyin nima olasiz",
+    sub: "AI tizimlari ishlay boshlagandan keyin biznesda sodir bo'ladigan aniq o'zgarishlar.",
     cards: [
-    { icon: "⏱", t: "Жараёнлар вақти қисқаради", d: "Соатлаб давом этган вазифалар дақиқаларда бажарилади." },
-    { icon: "💰", t: "Харажатлар камаяди", d: "Камроқ қўл меҳнати — камроқ харажат." },
-    { icon: "🎯", t: "Хатолар йўқолади", d: "ИИ бир хил ишни ҳар сафар бир хил аниқ бажаради." },
-    { icon: "🔄", t: "Рутин йўқолади", d: "Жамоа фикрлаш ва тажриба талаб қиладиган вазифаларга эътибор қаратади." },
-    { icon: "📈", t: "Даромад ўсади", d: "Мавжуд жамоа кўпроқ ҳажмни уддалайди." },
-    { icon: "⚡", t: "Муносабат тезлиги", d: "Мижозлар дарҳол жавоб олади." }]
+    { icon: "⏱", t: "Jarayonlar vaqti qisqaradi", d: "Soatlab davom etgan vazifalar daqiqalarda bajariladi." },
+    { icon: "💰", t: "Xarajatlar kamayadi", d: "Kamroq qo'l mehnati — kamroq xarajat." },
+    { icon: "🎯", t: "Xatolar yo'qoladi", d: "AI bir xil ishni har safar bir xil aniq bajaradi." },
+    { icon: "🔄", t: "Rutin yo'qoladi", d: "Jamoa fikrlash va tajriba talab qiladigan vazifalarga e'tibor qaratadi." },
+    { icon: "📈", t: "Daromad o'sadi", d: "Mavjud jamoa ko'proq hajmni uddalaydi." },
+    { icon: "⚡", t: "Munosabat tezligi", d: "Mijozlar darhol javob oladi." }]
   }
 };
 

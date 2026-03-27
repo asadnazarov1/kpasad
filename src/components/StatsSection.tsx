@@ -10,10 +10,10 @@ const T = {
     { num: "$0", label: "Стоимость первичного аудита" },
   ],
   uz: [
-    { num: "8+", label: "Амалга оширилган лойиҳалар" },
-    { num: "4🌍", label: "АҚШ · Буюк Британия · Молдова · Ўзбекистон" },
-    { num: "80%", label: "Мижозлар — халқаро бозор" },
-    { num: "$0", label: "Бошланғич аудит нархи" },
+    { num: "8+", label: "Amalga oshirilgan loyihalar" },
+    { num: "4🌍", label: "AQSh · Buyuk Britaniya · Moldova · O'zbekiston" },
+    { num: "80%", label: "Mijozlar — xalqaro bozor" },
+    { num: "$0", label: "Boshlang'ich audit narxi" },
   ],
 };
 

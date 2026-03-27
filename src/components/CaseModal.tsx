@@ -5,7 +5,7 @@ import { X } from "lucide-react";
 
 const labels = {
   ru: { before: "ПРЕДЫДУЩЕЕ СОСТОЯНИЕ", what: "ЧТО МЫ СДЕЛАЛИ", result: "РЕЗУЛЬТАТ" },
-  uz: { before: "ОЛДИНГИ ҲОЛАТ", what: "БИЗ НИМА ҚИЛДИК", result: "НАТИЖА" },
+  uz: { before: "OLDINGI HOLAT", what: "BIZ NIMA QILDIK", result: "NATIJA" },
 };
 
 interface Props {
