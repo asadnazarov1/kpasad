@@ -13,13 +13,13 @@ const T = {
 
   },
   uz: {
-    label: "БИЗ ҚАНДАЙ ИШЛАЙМИЗ",
-    title: "Биринчи суҳбатдан амалий натижагача",
+    label: "BIZ QANDAY ISHLAYMIZ",
+    title: "Birinchi suhbatdan amaliy natijagacha",
     steps: [
-    { t: "Бепул аудит", d: "Қўнғироқ қиламиз, жараёнларингизни кўриб чиқамиз." },
-    { t: "Стратегия ва режа", d: "Аниқ режа тузаман: нимани автоматлаштирамиз, қандай, қанча вақтда." },
-    { t: "Жорий этиш", d: "ИИ ечимларини бизнесингизни тўхтатмасдан жорий жараёнларга қуриб, созлаб ва интеграция қиламан." },
-    { t: "Қўллаб-қувватлаш ва ўсиш", d: "Алоқада қоламан. Тизим ишлайди ва бизнесингиз билан бирга ривожланади." }]
+    { t: "Bepul audit", d: "Qo'ng'iroq qilamiz, jarayonlaringizni ko'rib chiqamiz." },
+    { t: "Strategiya va reja", d: "Aniq reja tuzaman: nimani avtomatlashtiramiz, qanday, qancha vaqtda." },
+    { t: "Joriy etish", d: "AI yechimlarini biznesingizni to'xtatmasdan joriy jarayonlarga qurib, sozlab va integratsiya qilaman." },
+    { t: "Qo'llab-quvvatlash va o'sish", d: "Aloqada qolaman. Tizim ishlaydi va biznesingiz bilan birga rivojlanadi." }]
   }
 };
 

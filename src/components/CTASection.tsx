@@ -10,11 +10,11 @@ const T = {
     note: "Ответ в течение 24 часов · Бесплатно · Без обязательств"
   },
   uz: {
-    label: "БЕПУЛ АУДИТ",
-    title: "30 дақиқада бизнесингиз вақт ва пул йўқотаётган жойни билиб олинг",
-    sub: "Жараёнларингизни бепул таҳлил қиламан ва ИИ жорий этиш учун аниқ нуқталарни кўрсатаман. Ҳеч қандай мажбуриятсиз.",
-    cta: "Бепул аудитга ёзилиш",
-    note: "24 соат ичида жавоб · Бепул · Мажбуриятсиз"
+    label: "BEPUL AUDIT",
+    title: "30 daqiqada biznesingiz vaqt va pul yo'qotayotgan joyni bilib oling",
+    sub: "Jarayonlaringizni bepul tahlil qilaman va AI joriy etish uchun aniq nuqtalarni ko'rsataman. Hech qanday majburiyatsiz.",
+    cta: "Bepul auditga yozilish",
+    note: "24 soat ichida javob · Bepul · Majburiyatsiz"
   }
 };
 
