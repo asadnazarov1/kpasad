@@ -1,6 +1,6 @@
 const T = {
   ru: "© 2025 Asad Nazarov — AI-архитектор. Ташкент, Узбекистан.",
-  uz: "© 2025 Asad Nazarov — AI arxitektor. Toshkent, O'zbekiston.",
+  uz: "© 2025 Asad Nazarov — ИИ архитектор. Тошкент, Ўзбекистон.",
 };
 
 interface Props { lang: "ru" | "uz"; }
