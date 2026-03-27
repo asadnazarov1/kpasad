@@ -26,11 +26,11 @@ const T = {
     ipBadge: "Сейчас в работе"
   },
   uz: {
-    label: "ЛОЙИҲАЛАР",
-    title: "Турли соҳалар. Битта тамойил.",
-    sub: "Маркетинг, таълим, e-commerce, авто — ҳар бир бизнесда ИИ вақтни тежайдиган жараёнларни топдик.",
-    more: "Батафсил",
-    ipBadge: "Ҳозир ишда"
+    label: "LOYIHALAR",
+    title: "Turli sohalar. Bitta tamoyil.",
+    sub: "Marketing, ta'lim, e-commerce, avto — har bir biznesda AI vaqtni tejaydigan jarayonlarni topdik.",
+    more: "Batafsil",
+    ipBadge: "Hozir ishda"
   }
 };
 
